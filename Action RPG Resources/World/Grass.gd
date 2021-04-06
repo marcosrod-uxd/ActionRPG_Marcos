@@ -1,5 +1,7 @@
 extends Node2D
 
+#test
+
 const GrassEffect = preload("res://Action RPG Resources/Effects/GrassEffect.tscn")
 
 func create_grass_effect():

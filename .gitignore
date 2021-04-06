@@ -5,13 +5,14 @@ icon.png.import
 project.godot
 scn/
 override.cfg
+*.TMP
 
 # Godot-specific ignores
-res://.import/
+.import/
 export.cfg
 export_presets.cfg
-res://.github/
-res://addons/
+.github/
+addons/
 
 # Mono-specific ignores
 .mono/

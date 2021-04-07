@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-const PlayerHurtSound = preload("res://Action RPG Resources/Music and Sounds/PlayerHurtSound.tscn")
+const PlayerHurtSound = preload("res://Action_RPG_Resources/Music_and_Sounds/PlayerHurtSound.tscn")
 
 export var FRICTION = 15
 export var ACCELERATION = 15

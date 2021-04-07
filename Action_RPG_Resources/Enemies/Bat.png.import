@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Bat.png-d466f08671dd4a9de00d1afc24c7f30c.stex"
+path="res://.import/Bat.png-0fe2d45e233c080e5134257c890bdb46.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Action RPG Resources/Enemies/Bat.png"
-dest_files=[ "res://.import/Bat.png-d466f08671dd4a9de00d1afc24c7f30c.stex" ]
+source_file="res://Action_RPG_Resources/Enemies/Bat.png"
+dest_files=[ "res://.import/Bat.png-0fe2d45e233c080e5134257c890bdb46.stex" ]
 
 [params]
 

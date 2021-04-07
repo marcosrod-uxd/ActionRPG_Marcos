@@ -1,18 +1,16 @@
-[gd_scene load_steps=60 format=2]
+[gd_scene load_steps=59 format=2]
 
-[ext_resource path="res://Action RPG Resources/Player/Player.gd" type="Script" id=1]
-[ext_resource path="res://Action RPG Resources/Player/Player.png" type="Texture" id=2]
-[ext_resource path="res://Action RPG Resources/Boxes/Hitbox.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Action RPG Resources/Player/SwordHitbox.gd" type="Script" id=4]
-[ext_resource path="res://Action RPG Resources/Boxes/Hurtbox.tscn" type="PackedScene" id=5]
-[ext_resource path="res://Action RPG Resources/Shadows/MediumShadow.png" type="Texture" id=6]
-[ext_resource path="res://Action RPG Resources/Music and Sounds/Swipe.wav" type="AudioStream" id=7]
-[ext_resource path="res://Action RPG Resources/Music and Sounds/Evade.wav" type="AudioStream" id=8]
+[ext_resource path="res://Action_RPG_Resources/Player/Player.gd" type="Script" id=1]
+[ext_resource path="res://Action_RPG_Resources/Player/Player.png" type="Texture" id=2]
+[ext_resource path="res://Action_RPG_Resources/Boxes/Hitbox.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Action_RPG_Resources/Player/SwordHitbox.gd" type="Script" id=4]
+[ext_resource path="res://Action_RPG_Resources/Boxes/Hurtbox.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Action_RPG_Resources/Shadows/MediumShadow.png" type="Texture" id=6]
+[ext_resource path="res://Action_RPG_Resources/Music_and_Sounds/Swipe.wav" type="AudioStream" id=7]
 [ext_resource path="res://Action RPG Resources/WhiteColor.shader" type="Shader" id=9]
 
 [sub_resource type="ShaderMaterial" id=1]
 shader = ExtResource( 9 )
-shader_param/active = false
 
 [sub_resource type="CapsuleShape2D" id=2]
 radius = 3.13174
@@ -389,7 +387,7 @@ tracks/2/keys = {
 "clips": [ {
 "end_offset": 0.0,
 "start_offset": 0.0,
-"stream": ExtResource( 8 )
+"stream": null
 } ],
 "times": PoolRealArray( 0.1 )
 }
@@ -432,7 +430,7 @@ tracks/2/keys = {
 "clips": [ {
 "end_offset": 0.0,
 "start_offset": 0.0,
-"stream": ExtResource( 8 )
+"stream": null
 } ],
 "times": PoolRealArray( 0.1 )
 }
@@ -475,7 +473,7 @@ tracks/2/keys = {
 "clips": [ {
 "end_offset": 0.0,
 "start_offset": 0.0,
-"stream": ExtResource( 8 )
+"stream": null
 } ],
 "times": PoolRealArray( 0.1 )
 }
@@ -518,7 +516,7 @@ tracks/2/keys = {
 "clips": [ {
 "end_offset": 0.0,
 "start_offset": 0.0,
-"stream": ExtResource( 8 )
+"stream": null
 } ],
 "times": PoolRealArray( 0.1 )
 }
@@ -764,7 +762,7 @@ material = SubResource( 1 )
 position = Vector2( 0, -10 )
 texture = ExtResource( 2 )
 hframes = 60
-frame = 36
+frame = 28
 region_rect = Rect2( 1052.9, 106.732, 63.842, 19.644 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -800,7 +798,7 @@ parameters/Run/blend_position = Vector2( 0, 1 )
 
 [node name="HitboxPivot" type="Position2D" parent="."]
 position = Vector2( 0, -4 )
-rotation = 1.5708
+rotation = 4.71239
 __meta__ = {
 "_gizmo_extents_": 20.0
 }

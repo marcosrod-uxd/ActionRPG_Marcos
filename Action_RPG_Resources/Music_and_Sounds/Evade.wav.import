@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Evade.wav-8b74b9cfc6263e5d0c243fc6f4c918c9.sample"
+path="res://.import/Evade.wav-6860936a04fcf7c602bae1dd8ec84259.sample"
 
 [deps]
 
-source_file="res://Action RPG Resources/Music and Sounds/Evade.wav"
-dest_files=[ "res://.import/Evade.wav-8b74b9cfc6263e5d0c243fc6f4c918c9.sample" ]
+source_file="res://Action_RPG_Resources/Music_and_Sounds/Evade.wav"
+dest_files=[ "res://.import/Evade.wav-6860936a04fcf7c602bae1dd8ec84259.sample" ]
 
 [params]
 

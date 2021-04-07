@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Menu Move.wav-99e448512e6748f4c89afca373835e09.sample"
+path="res://.import/Menu Move.wav-aed78827037dcac41bbb44a6e382e73d.sample"
 
 [deps]
 
-source_file="res://Action RPG Resources/Music and Sounds/Menu Move.wav"
-dest_files=[ "res://.import/Menu Move.wav-99e448512e6748f4c89afca373835e09.sample" ]
+source_file="res://Action_RPG_Resources/Music_and_Sounds/Menu Move.wav"
+dest_files=[ "res://.import/Menu Move.wav-aed78827037dcac41bbb44a6e382e73d.sample" ]
 
 [params]
 

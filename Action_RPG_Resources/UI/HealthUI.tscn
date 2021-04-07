@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://Action RPG Resources/UI/HealthUI.gd" type="Script" id=1]
-[ext_resource path="res://Action RPG Resources/UI/HeartUIEmpty.png" type="Texture" id=2]
-[ext_resource path="res://Action RPG Resources/UI/HeartUIFull.png" type="Texture" id=3]
+[ext_resource path="res://Action_RPG_Resources/UI/HealthUI.gd" type="Script" id=1]
+[ext_resource path="res://Action_RPG_Resources/UI/HeartUIEmpty.png" type="Texture" id=2]
+[ext_resource path="res://Action_RPG_Resources/UI/HeartUIFull.png" type="Texture" id=3]
 
 [node name="HealthUI" type="Control"]
 margin_right = 60.0

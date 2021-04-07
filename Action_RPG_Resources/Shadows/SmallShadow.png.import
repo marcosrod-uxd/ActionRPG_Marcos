@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/SmallShadow.png-383571d11d3ce46e3a425f16317a3b96.stex"
+path="res://.import/SmallShadow.png-55136bc6aa73e6d24125fcb5310e0daa.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Action RPG Resources/Shadows/SmallShadow.png"
-dest_files=[ "res://.import/SmallShadow.png-383571d11d3ce46e3a425f16317a3b96.stex" ]
+source_file="res://Action_RPG_Resources/Shadows/SmallShadow.png"
+dest_files=[ "res://.import/SmallShadow.png-55136bc6aa73e6d24125fcb5310e0daa.stex" ]
 
 [params]
 

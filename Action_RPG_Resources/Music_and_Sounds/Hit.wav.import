@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Hit.wav-6778567a655b5fe450f93df6aac1d796.sample"
+path="res://.import/Hit.wav-71ff3cfae4a7c9e6caad807c58a9f026.sample"
 
 [deps]
 
-source_file="res://Action RPG Resources/Music and Sounds/Hit.wav"
-dest_files=[ "res://.import/Hit.wav-6778567a655b5fe450f93df6aac1d796.sample" ]
+source_file="res://Action_RPG_Resources/Music_and_Sounds/Hit.wav"
+dest_files=[ "res://.import/Hit.wav-71ff3cfae4a7c9e6caad807c58a9f026.sample" ]
 
 [params]
 

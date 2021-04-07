@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Swipe.wav-25d65da04dc1c58e6337980056e38ffc.sample"
+path="res://.import/Swipe.wav-01852874a8dec73607038108bd41afeb.sample"
 
 [deps]
 
-source_file="res://Action RPG Resources/Music and Sounds/Swipe.wav"
-dest_files=[ "res://.import/Swipe.wav-25d65da04dc1c58e6337980056e38ffc.sample" ]
+source_file="res://Action_RPG_Resources/Music_and_Sounds/Swipe.wav"
+dest_files=[ "res://.import/Swipe.wav-01852874a8dec73607038108bd41afeb.sample" ]
 
 [params]
 

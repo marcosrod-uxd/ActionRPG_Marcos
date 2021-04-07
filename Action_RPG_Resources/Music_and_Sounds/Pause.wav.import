@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Pause.wav-22ad076fcc6e863b1d1bd7e583a4504c.sample"
+path="res://.import/Pause.wav-a32a5f7e5e4676e1d1e0ee47b68520e3.sample"
 
 [deps]
 
-source_file="res://Action RPG Resources/Music and Sounds/Pause.wav"
-dest_files=[ "res://.import/Pause.wav-22ad076fcc6e863b1d1bd7e583a4504c.sample" ]
+source_file="res://Action_RPG_Resources/Music_and_Sounds/Pause.wav"
+dest_files=[ "res://.import/Pause.wav-a32a5f7e5e4676e1d1e0ee47b68520e3.sample" ]
 
 [params]
 

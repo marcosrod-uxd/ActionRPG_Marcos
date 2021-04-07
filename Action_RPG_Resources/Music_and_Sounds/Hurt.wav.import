@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Hurt.wav-e589ba2cae2625317280ad63cbf95e41.sample"
+path="res://.import/Hurt.wav-b0452db068c1d036fe263454650df832.sample"
 
 [deps]
 
-source_file="res://Action RPG Resources/Music and Sounds/Hurt.wav"
-dest_files=[ "res://.import/Hurt.wav-e589ba2cae2625317280ad63cbf95e41.sample" ]
+source_file="res://Action_RPG_Resources/Music_and_Sounds/Hurt.wav"
+dest_files=[ "res://.import/Hurt.wav-b0452db068c1d036fe263454650df832.sample" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/GrassEffect.png-c9a6abe9532d64e8e289c787f00b0baa.stex"
+path="res://.import/GrassEffect.png-2eb4e01dea3a62b43dd4d4543858c9b2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Action RPG Resources/Effects/GrassEffect.png"
-dest_files=[ "res://.import/GrassEffect.png-c9a6abe9532d64e8e289c787f00b0baa.stex" ]
+source_file="res://Action_RPG_Resources/Effects/GrassEffect.png"
+dest_files=[ "res://.import/GrassEffect.png-2eb4e01dea3a62b43dd4d4543858c9b2.stex" ]
 
 [params]
 

@@ -2,7 +2,7 @@ extends Area2D
 
 
 
-const HitEffect = preload("res://Action RPG Resources/Effects/HitEffect.tscn")
+const HitEffect = preload("res://Action_RPG_Resources/Effects/HitEffect.tscn")
 
 var invincible = false setget set_invincible
 

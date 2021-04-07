@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-const EnemyDeathEffect = preload("res://Action RPG Resources/Effects/EnemyDeathEffect.tscn")
+const EnemyDeathEffect = preload("res://Action_RPG_Resources/Effects/EnemyDeathEffect.tscn")
 
 enum {
 	IDLE,

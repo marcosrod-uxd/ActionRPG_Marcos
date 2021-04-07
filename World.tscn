@@ -516,7 +516,7 @@ format = 1
 tile_data = PoolIntArray( -327683, 0, 4, -327682, 0, 196609, -327681, 0, 196609, -393216, 0, 7, -262149, 0, 4, -262148, 0, 196609, -262147, 0, 196615, -327680, 0, 196612, -327679, 0, 196609, -327678, 0, 196609, -327677, 0, 196609, -327676, 0, 6, -327675, 0, 5, -327674, 0, 196609, -327673, 0, 196609, -327672, 0, 196609, -327671, 0, 7, -196614, 0, 4, -196613, 0, 196615, -262140, 0, 131072, -262139, 0, 131074, -262135, 0, 196612, -262134, 0, 196609, -262133, 0, 196609, -262132, 0, 7, -131078, 0, 65539, -196596, 0, 196612, -196595, 0, 7, -65542, 0, 196612, -65541, 0, 7, -131059, 0, 196612, -131058, 0, 7, -5, 0, 65539, -65522, 0, 65539, 65531, 0, 65539, 0, 0, 196611, 9, 0, 196611, 14, 0, 65539, 131067, 0, 65539, 65550, 0, 65539, 196603, 0, 196612, 196604, 0, 7, 131081, 0, 3, 131086, 0, 65539, 262140, 0, 65539, 196617, 0, 65539, 196622, 0, 65539, 327676, 0, 65539, 262148, 0, 3, 262153, 0, 65539, 262158, 0, 65539, 393212, 0, 196612, 393213, 0, 7, 327680, 0, 196611, 327682, 0, 196608, 327683, 0, 196609, 327684, 0, 196615, 327689, 0, 131075, 327694, 0, 65539, 458749, 0, 65539, 393229, 0, 4, 393230, 0, 196615, 524285, 0, 65539, 458764, 0, 4, 458765, 0, 196615, 589821, 0, 196612, 589822, 0, 196609, 589823, 0, 196609, 524288, 0, 196609, 524289, 0, 196609, 524290, 0, 196609, 524291, 0, 196609, 524292, 0, 196609, 524293, 0, 196609, 524294, 0, 196609, 524295, 0, 196609, 524296, 0, 196609, 524297, 0, 196609, 524298, 0, 196609, 524299, 0, 196609, 524300, 0, 196615 )
 
 [node name="Camera2D" parent="." instance=ExtResource( 10 )]
-position = Vector2( 33.4158, 56 )
+position = Vector2( -33.2125, 194.876 )
 
 [node name="TopLeft" parent="Camera2D/Limits" index="0"]
 position = Vector2( -224, -192 )
@@ -527,7 +527,7 @@ position = Vector2( 520, 360 )
 [node name="YSort" type="YSort" parent="."]
 
 [node name="Player" parent="YSort" instance=ExtResource( 2 )]
-position = Vector2( 33.4158, 56 )
+position = Vector2( -33.2125, 194.876 )
 
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="YSort/Player"]
 remote_path = NodePath("../../../Camera2D")
@@ -607,11 +607,35 @@ position = Vector2( 118.697, 86.543 )
 [node name="Bat" parent="YSort/Bats" instance=ExtResource( 7 )]
 position = Vector2( 93.5918, 214.957 )
 
+[node name="Bat4" parent="YSort/Bats" instance=ExtResource( 7 )]
+position = Vector2( 93.5918, 214.957 )
+
+[node name="Bat5" parent="YSort/Bats" instance=ExtResource( 7 )]
+position = Vector2( 93.5918, 214.957 )
+
+[node name="Bat6" parent="YSort/Bats" instance=ExtResource( 7 )]
+position = Vector2( 93.5918, 214.957 )
+
+[node name="Bat7" parent="YSort/Bats" instance=ExtResource( 7 )]
+position = Vector2( 93.5918, 214.957 )
+
+[node name="Bat8" parent="YSort/Bats" instance=ExtResource( 7 )]
+position = Vector2( 93.5918, 214.957 )
+
+[node name="Bat9" parent="YSort/Bats" instance=ExtResource( 7 )]
+position = Vector2( 93.5918, 214.957 )
+
+[node name="Bat10" parent="YSort/Bats" instance=ExtResource( 7 )]
+position = Vector2( 93.5918, 214.957 )
+
+[node name="Bat11" parent="YSort/Bats" instance=ExtResource( 7 )]
+position = Vector2( 93.5918, 214.957 )
+
 [node name="Bat2" parent="YSort/Bats" instance=ExtResource( 7 )]
 position = Vector2( 221, 35 )
 
 [node name="Bat3" parent="YSort/Bats" instance=ExtResource( 7 )]
-position = Vector2( 58.5, 166 )
+position = Vector2( 254.103, 200.963 )
 
 [node name="Trees" type="YSort" parent="YSort"]
 

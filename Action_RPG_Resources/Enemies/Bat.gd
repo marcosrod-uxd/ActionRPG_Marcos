@@ -12,12 +12,13 @@ enum {
 export var MAX_SPEED = 60
 export var FRICTION = 5
 export var ACCELERATION = 15
-export var KNOCKBACK = 200
-export var SOFT_COLLISION_KNOCKBACK = 400
+export var KNOCKBACK = 300
+export var SOFT_COLLISION_KNOCKBACK = 100
 onready var WANDER_TARGET_RANGE = MAX_SPEED/12
 var velocity = Vector2.ZERO
 var knockback = Vector2.ZERO
 var state = IDLE
+var is_dead = false
 
 onready var stats = $Stats
 onready var playerDetectionZone = $PlayerDetectionZone
@@ -59,18 +60,23 @@ func _physics_process(_delta):
 				velocity = velocity.move_toward(direction * MAX_SPEED, ACCELERATION)
 			else:
 				state = IDLE
-			animatedSprite.flip_h = velocity.x<0 # if (velocity.x <0) flip_h = false else flup_h = true (this flips the sprite)
 		
 		HIT_STUN:
 			animatedSprite._set_playing(false)
 			knockback = knockback.move_toward(Vector2.ZERO, ACCELERATION)
 			knockback = move_and_slide(knockback)
 			if knockback == Vector2.ZERO:
+				if is_dead:
+					queue_free()
+					var enemyDeathEffect = EnemyDeathEffect.instance()
+					get_parent().add_child(enemyDeathEffect)
+					enemyDeathEffect.global_position = global_position
+				animatedSprite._set_playing(true)
 				idle_wander_shuffle()
 			
 	if softCollision.is_colliding():
 		velocity += softCollision.get_push_vector() * SOFT_COLLISION_KNOCKBACK
-
+	animatedSprite.flip_h = velocity.x<0 # if (velocity.x <0) flip_h = false else flup_h = true (this flips the sprite)
 	velocity = move_and_slide(velocity)	
 
 
@@ -98,11 +104,7 @@ func _on_Hurtbox_area_entered(area):
 	state = HIT_STUN
 
 func _on_Stats_no_health():
-	queue_free()
-	var enemyDeathEffect = EnemyDeathEffect.instance()
-	get_parent().add_child(enemyDeathEffect)
-	enemyDeathEffect.global_position = global_position
-
+	is_dead = true
 
 func _on_Hurtbox_invincibility_started():
 	blinkAnimationPlayer.play("Start")
